@@ -148,10 +148,7 @@ ul {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-}
-
-
-
+    }
 
 /* Botón de sortear título */
 .button-draw {
@@ -171,7 +168,6 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
-
 
 .boton-reinicio {
     width: 100%;
