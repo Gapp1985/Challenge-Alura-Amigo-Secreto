@@ -58,8 +58,7 @@ function sortearAmigo() {
     document.getElementById('resultado').innerHTML = `<li>${amigoSorteado}</li>`;
     actualizarLista();
     actualizarBotonSortear();
-    audio.play('win.mp3');
-}
+    }
 
 function reiniciarAplicacion(){
     if (confirm("¿Seguro que deseas reiniciar la aplicación?")) {
@@ -69,7 +68,3 @@ function reiniciarAplicacion(){
     }
 }
 
-function playSound(soundFile) {
-    const audio = new Audio(soundFile);
-    audio.play();
-}
